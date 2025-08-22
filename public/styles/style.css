@@ -1,26 +1,67 @@
-body {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.main-container {
+    height: 100px;
+    padding: 12px 17px;
+    overflow: scroll;
+    font-size: 12px;
+    text-align: justify;
 }
 
+.container {
+    height: 15%;
+    width: 90%;
+    position: relative;
+}
 
 main {
-    min-width: 80%;
-    min-height: 50vh;
-    display: flex;
-    gap: 1rem;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: "Press Start 2P", system-ui;
-    font-weight: 400;
-    font-style: normal;
+    overflow: hidden;
 }
 
-main div {
-    width: 70%;
-    margin: 30px;
+
+.flower-img {
+    width: 300px;
+    /* border: 2px solid blue; */
+    margin-bottom: 50px;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 2px solid yellow;
+    overflow: hidden;
+}
+
+.btns {
+    font-size: 10px;
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+
+}
+
+.left-btn {
+    top: 50%;
+    left: 0;
+    translate: -50% -50%;
+}
+
+.right-btn {
+    top: 50%;
+    right: -4%;
+    translate: -50% -50%;
+}
+
+.main-btns-container {
+    display: flex;
+    width: 90%;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.main-btns {
+    width: 40%;
+    font-size: 11px;
 }
